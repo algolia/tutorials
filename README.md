@@ -14,5 +14,5 @@ This repository contains and references tutorials for [Algolia Search](http://ww
 
 **Third party platforms**
 
-1. [Algolia Real Time Search With Parse](http://scottksmith.com/blog/2014/12/08/algolia-real-time-search-with-parse/)
+1. [Algolia Real Time Search With Parse](/third-party-platforms/integrating%20with%20parse.md)
 2. [Algolia Real Time Search With Firebase](http://scottksmith.com/blog/2014/12/09/algolia-real-time-search-with-firebase/)
