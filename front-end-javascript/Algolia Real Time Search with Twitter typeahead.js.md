@@ -1,8 +1,8 @@
 # Algolia Real Time Search with Twitter typeahead.js
 
-In our [previous article](/Getting%20Started%20with%20Algolia%20Real%20Time%20Search.md) we learned how to easily add [Algolia's real time search](https://www.algolia.com) to our web application. We kept it simple and showed the results in a functional but not very pretty result list.
+In our [previous article](/front-end-javascript/Getting%20Started%20with%20Algolia%20Real%20Time%20Search.md) we learned how to easily add [Algolia's real time search](https://www.algolia.com) to our web application. We kept it simple and showed the results in a functional but not very pretty result list.
 
-In this article, we will see how to quickly and easily add some awesomesauce to our application by integrating our search results with Twitter's [typeahead.js](https://github.com/twitter/typeahead.js). If you haven't read the [previous article](/Getting%20Started%20with%20Algolia%20Real%20Time%20Search.md), you will want to so you can create your Algolia account and initial data index which will be used in this article.
+In this article, we will see how to quickly and easily add some awesomesauce to our application by integrating our search results with Twitter's [typeahead.js](https://github.com/twitter/typeahead.js). If you haven't read the [previous article](/front-end-javascript/Getting%20Started%20with%20Algolia%20Real%20Time%20Search.md), you will want to so you can create your Algolia account and initial data index which will be used in this article.
 
 ### Initial code
 
