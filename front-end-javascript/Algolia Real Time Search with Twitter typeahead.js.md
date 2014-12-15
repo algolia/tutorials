@@ -58,7 +58,7 @@ You will need to update the JavaScript file and set your own application id, sea
 
 ### Algolia's support for Twitter typeahead.js
 
-One of the many nice things about Aloglia's APIs is the built in adapter for Twitter typeahead.js.
+One of the many nice things about Algolia's APIs is the built in adapter for Twitter typeahead.js.
 
 ```javascript
 /*
@@ -101,7 +101,7 @@ $(document).ready(function() {
 });
 ```
 
-So that is all we need in order to have nice type ahead/auto complete functionality tied to our Aloglia real time search. What is happening here is as we type in the input field, the typeahead component is firing off searches using the ```ttAdapter``` we hooked in as the source. As results come back, the typeahead component pulls out the ```name``` field from each ```hit``` and shows that in the dropdown.
+So that is all we need in order to have nice type ahead/auto complete functionality tied to our Algolia real time search. What is happening here is as we type in the input field, the typeahead component is firing off searches using the ```ttAdapter``` we hooked in as the source. As results come back, the typeahead component pulls out the ```name``` field from each ```hit``` and shows that in the dropdown.
 
 ### Make it a little prettier
 

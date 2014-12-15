@@ -22,7 +22,7 @@ The first thing we need to do is [create an account](https://www.algolia.com/use
 
 After you create your account, you will be asked to choose the location of your data center. This is an important step as it will determine performance and latency. As of writing this article it is not possible to change the location of your data center so you will want to choose wisely. The team has informed me this will be possible in the future along with multiple locations. The best advice now is to pick a data center closest to your servers.
 
-![Aloglia Datacenter](/images/Algolia_datacenter.png)
+![Algolia Datacenter](/images/Algolia_datacenter.png)
 
 After you pick the best data center, in my case North America West, you will be presented with a page to create your first data index.
 
@@ -30,7 +30,7 @@ After you pick the best data center, in my case North America West, you will be 
 
 Indexes are entities within Algolia that allow you to define the attributes you want be be searched, the rank/order of those attributes, how to display that data, and much more.
 
-![Aloglia Start](/images/Algolia_start.png)
+![Algolia Start](/images/Algolia_start.png)
 
 You have three options for creating your first index.
 
@@ -42,7 +42,7 @@ For this tutorial we will use the sample data option. Go ahead and pick the midd
 
 ![Algolia Index](/images/Algolia_index.png)
 
-Aloglia provides a very nice interface here that allows you to explore and search your newly created index. In the section titled "Explore your index", you can enter search terms and see your results instantly below. Here is what it looks like when searching for the name "Kevin".
+Algolia provides a very nice interface here that allows you to explore and search your newly created index. In the section titled "Explore your index", you can enter search terms and see your results instantly below. Here is what it looks like when searching for the name "Kevin".
 
 ![Algolia Index Explore](/images/Algolia_explore.png)
 
