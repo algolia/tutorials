@@ -18,5 +18,5 @@ This repository contains and references tutorials for [Algolia Search](http://ww
 
 **Third party platforms**
 
-1. [Algolia Real Time Search With Parse](/third-party-platforms/Integrating%20with%20Parse.md)
-2. [Algolia Real Time Search With Firebase](/third-party-platforms/Integrating%20with%20Firebase.md)
+1. [Integrating With Parse](/third-party-platforms/Integrating%20with%20Parse.md)
+2. [Integrating With Firebase](/third-party-platforms/Integrating%20with%20Firebase.md)
