@@ -12,6 +12,10 @@ This repository contains and references tutorials for [Algolia Search](http://ww
 4. [Searchbar with multi-categories auto-completion](https://www.algolia.com/doc/tutorials/multi-auto-complete)
 5. [Instant-search](https://www.algolia.com/doc/tutorials/instant-search)
 
+**C#**
+
+1. [Importing Data from C#](/back-end-csharp/Importing%20Data%20from%20CSharp.md)
+
 **Third party platforms**
 
 1. [Algolia Real Time Search With Parse](/third-party-platforms/Integrating%20with%20Parse.md)
