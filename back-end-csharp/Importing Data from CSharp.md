@@ -58,7 +58,7 @@ Now, whenever contact data is removed, it will also get removed from Algolia.
 
 1. [Read the C# documentation](https://www.algolia.com/doc/csharp)
 2. [Dive into the C# command reference](https://github.com/algolia/algoliasearch-client-csharp#commands-reference)
-3. [Explore the C# API client source code](https://github.com/algolia/algoliasearch-client-csharp#commands-reference)
+3. [Explore the C# API client source code](https://github.com/algolia/algoliasearch-client-csharp)
 
 
 
