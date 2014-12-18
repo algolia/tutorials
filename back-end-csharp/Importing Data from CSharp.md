@@ -44,7 +44,7 @@ private void AddOrUpdateData(Contact contact){    //Create our client, and ind
 
 This code can be used to add or update contacts within our search index.
 
-## 7. Delete Data
+## 6. Delete Data
 
 Next, we need to handle the case where data is deleted from your C# application.
 
@@ -54,7 +54,7 @@ private void DeleteData(Contact contact){    //Create our client, and index ob
 
 Now, whenever contact data is removed, it will also get removed from Algolia.
 
-## 8. Next Steps
+## 7. Next Steps
 
 1. [Read the C# documentation](https://www.algolia.com/doc/csharp)
 2. [Dive into the C# command reference](https://github.com/algolia/algoliasearch-client-csharp#commands-reference)
