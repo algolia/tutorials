@@ -25,7 +25,7 @@ namespace PackageTrack.Web.Controllers
         {
             // Get the package index helper from Application variable
             var packageIndexHelper = HttpContext.Application.Get("PackageIndexHelper") as IndexHelper<Package>;
-            var temp = await packageIndexHelper.OverwriteIndexAsync(db.Packages, 1);
+            await packageIndexHelper.OverwriteIndexAsync(db.Packages, 1000);
 
             return View();
         }
@@ -36,7 +36,7 @@ namespace PackageTrack.Web.Controllers
         {
             // Get the package index helper from Application variable
             var packageIndexHelper = HttpContext.Application.Get("PackageIndexHelper") as IndexHelper<Package>;
-            var temp = await packageIndexHelper.SaveObjectsAsync(db.Packages, 2);
+            await packageIndexHelper.SaveObjectsAsync(db.Packages, 1000);
 
             return View();
         }
@@ -47,7 +47,7 @@ namespace PackageTrack.Web.Controllers
         {
             // Get the package index helper from Application variable
             var packageIndexHelper = HttpContext.Application.Get("PackageIndexHelper") as IndexHelper<Package>;
-            var temp = await packageIndexHelper.DeleteObjectsAsync(db.Packages, 1);
+            await packageIndexHelper.DeleteObjectsAsync(db.Packages, 1000);
 
             return View();
         }
