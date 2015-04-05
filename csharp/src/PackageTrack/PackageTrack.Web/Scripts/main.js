@@ -1,5 +1,5 @@
 ﻿$(document).ready(function () {
-    var algolia = new AlgoliaSearch('TGQCHL2AXM', '4d421136015d7d73a72fd6ef5305d1f2');
+    var algolia = new AlgoliaSearch('<APPLICATION_ID>', '<SEARCH_ONLY_API_KEY>');
     var index = algolia.initIndex('packages');
 
     var template = Hogan.compile(

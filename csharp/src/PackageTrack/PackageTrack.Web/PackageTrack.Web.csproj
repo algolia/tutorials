@@ -191,7 +191,7 @@
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Content\bootstrap.css.map" />
     <None Include="Scripts\jquery-2.1.3.intellisense.js" />
-    <Content Include="Scripts\algoliasearch.min-2.8.4.js" />
+    <Content Include="Scripts\algoliasearch.min-2.9.5.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\hogan.common-3.0.2.js" />
