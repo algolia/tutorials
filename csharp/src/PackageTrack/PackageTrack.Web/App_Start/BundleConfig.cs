@@ -26,7 +26,7 @@ namespace PackageTrack.Web
             bundles.Add(new ScriptBundle("~/bundles/main").Include(
                       "~/Scripts/typeahead.jquery.min-0.10.5.js",
                       "~/Scripts/hogan.common-3.0.2.js",
-                      "~/Scripts/algoliasearch.min-2.8.4.js",
+                      "~/Scripts/algoliasearch.min-2.9.5.js",
                       "~/Scripts/main.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
