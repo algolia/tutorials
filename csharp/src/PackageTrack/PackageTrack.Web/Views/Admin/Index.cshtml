@@ -1,0 +1,25 @@
+﻿<h2>Admin</h2>
+
+<div>
+    <hr />
+
+    <div class="form-actions no-color">
+        @using (Html.BeginForm("reindexdata", "admin"))
+        {
+            @Html.AntiForgeryToken()
+            <input type="submit" value="Re-Index Data" class="btn btn-default" />
+        }
+        <br />
+        @using (Html.BeginForm("indexdata", "admin"))
+        {
+            @Html.AntiForgeryToken()
+            <input type="submit" value="Index Data" class="btn btn-default" />
+        }
+        <br />
+        @using (Html.BeginForm("deletedata", "admin"))
+        {
+            @Html.AntiForgeryToken()
+            <input type="submit" value="Delete Data" class="btn btn-default" />
+        }
+    </div>
+</div>
