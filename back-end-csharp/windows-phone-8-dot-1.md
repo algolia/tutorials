@@ -1,4 +1,4 @@
-## Part 3: Windows Phone 8.1
+## PackageTrack Part 3: Windows Phone 8.1
 
 In this 3 part tutorial, we are going to explore how to easily add Algolia search to Windows Phone 8.1 and ASP.NET MVC applications. To do this, we will take advantage of Algolia's [C# client](https://github.com/algolia/algoliasearch-client-csharp) to add indexing capabilities to the ASP.NET MVC application and search capabilities to the Windows Phone application.
 
