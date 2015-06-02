@@ -1,6 +1,6 @@
 ﻿$(document).ready(function () {
-    var algolia = new AlgoliaSearch('<APPLICATION_ID>', '<SEARCH_ONLY_API_KEY>');
-    var index = algolia.initIndex('packages');
+    var client = algoliasearch('<APPLICATION ID>', '<SEARCH-ONLY API KEY>');
+    var index = client.initIndex('packages');
 
     var template = Hogan.compile(
         '<a href="/home/details/{{{ Id }}}">' +
