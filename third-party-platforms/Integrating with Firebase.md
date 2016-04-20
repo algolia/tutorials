@@ -132,7 +132,7 @@ function reindexIndex(snap) {
 
 To ensure the reindexing performs well it is suggested you limit the number of items indexed per call between 1,000 and 10,000 depending on the object size.
 
-Once you run this code, you will have all of your existing Firebase data reindexed with Algolia. You will want to remove this code once is is done because the event will continue to fire each time data is added.
+Once you run this code, you will have all of your existing Firebase data reindexed with Algolia. You will want to remove this code once it is done because the event will continue to fire each time data is added.
 
 ## 6. Add or Update Data
 
