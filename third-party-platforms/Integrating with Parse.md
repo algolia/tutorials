@@ -19,7 +19,7 @@ This tutorial assumes you are familiar with Parse, how it works, and how to buil
 
 ## 3. Add Agolia Real Time Search to the Project
 
-In order to integrate Aloglia within your Parse application, you will need to add the Algolia Node.js client. Copy [algoliasearch-node.js](https://raw.githubusercontent.com/algolia/algoliasearch-client-node/master/src/algoliasearch-node.js) to ```cloud/algoliasearch-node.js``` within your Parse Cloud Code directory.
+In order to integrate Algolia within your Parse application, you will need to add the Algolia Node.js client. Copy [algoliasearch-node.js](https://raw.githubusercontent.com/algolia/algoliasearch-client-node/master/src/algoliasearch-node.js) to ```cloud/algoliasearch-node.js``` within your Parse Cloud Code directory.
 
 ## 4. Import Existing Data
 
